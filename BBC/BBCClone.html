@@ -1,0 +1,975 @@
+<html>
+
+		<head>
+			<title>Technology-BBC News</title>
+			
+			<style type="text/css">
+				#topbar{
+				
+					width:1000px;
+					margin:0 auto;
+					background-color:white;
+					height:40px;
+				
+				}
+				
+				
+				body{
+			
+					margin:0px;
+					padding:0px;
+					font-family:Helvetica, Arial, sans-serif;
+				}
+				
+				#logo{
+				
+					margin:8px;
+					width:100px;
+					float:left;
+					margin-right:8px;
+				}
+				
+				
+				
+				.topbar-section{
+			
+					float:left;
+					border-left: 1px #CCCCCC solid;
+					height:100%;
+					
+			}
+				.topbar-section-arrow{
+			
+					float:left;
+					
+					height:100%;
+					
+			}
+				.topbar-menu{
+				
+					font-weight:bold;
+					font-size:87%;
+					padding-left:10px;
+					padding-right:10px;
+				}
+				.more-menu{
+				
+					font-weight:bold;
+					font-size:87%;
+					padding-left:10px;
+					padding-right:20px;
+					padding-top:14px;
+					height:26px;
+					
+				}
+			
+			#clear{
+				float:none;
+			}
+			
+			#signinimg{
+					width:22px;
+					margin:10px 12px ;
+					float:left;
+			
+			}
+			#signin-text{
+					font-weight:bold;
+					font-size:90%;
+					position:relative;
+					top:14px;
+					padding-right:50px;
+					
+			
+			}
+			#more-arrow{
+					width:5px;
+					padding-bottom:2px;
+					margin-left:60px;
+					
+			
+			}
+			#more-arrow1{
+					width:10px;
+					
+					margin-left:2px;
+					
+			
+			}
+			#search-box{
+					background-color:#E4E4E4;
+					margin-top:10px;
+					margin-left:8px;
+					border:none;
+					width:170px;
+					height:22px;
+			
+			}
+			#glass{
+					padding:0px;
+					margin:0px;
+					position:relative;
+					height:22px;
+					left:-4px;
+					top:7px;
+			
+			}
+			.Header-Bar{
+					background-color:#BB1919;
+					width:100%;
+					height:55px;
+			
+			}
+			.header-2{
+					background-color:#A91717;
+					width:100%;
+					height:40px;
+			
+			}
+			#Inner-Bar{
+					
+					width:1000px;
+					margin:0 auto;
+			
+			}
+			h1{
+					padding:0px;
+					margin:0px;
+					color:white;
+					position:relative;
+					left:-110px;
+					top:6px;
+					font-size:240%;
+					font-weight:normal;
+					font-family:Helvetica, Arial, sans-serif;
+			}
+			.head2{
+					width:985px;
+					margin:0 auto;
+					height:20px;
+			
+			}
+			.header-section{
+					color:white;
+					margin-top:10px;
+					padding-right:10px;
+					float:left;
+					border-right: 1px #BB4545 solid;
+					font-size:90%
+			}
+			.header-section-follows{
+					color:white;
+					margin-top:10px;
+					padding-right:10px;
+					padding-left:10px;
+					float:left;
+					border-right: 1px #BB4545 solid;
+					font-size:90%
+			
+			}
+			.header-section-follows-more{
+					color:white;
+					margin-top:10px;
+					padding-right:10px;
+					padding-left:10px;
+					float:left;
+					
+					font-size:90%
+			
+			}
+			#box{
+					margin:0 auto;
+					width:1000px;
+					
+			
+			}
+			
+			h2{
+					padding-top:15px;
+					padding-left:5px;
+					font-size:125%;
+					font-weight:normal;
+					color:#2A2A2A;
+					border-bottom:3px solid #a91717;
+					width:105px;
+					
+			
+			}
+			
+			a{
+			
+					text-decoration:none;
+					color:black;
+					margin-bottom:0px;
+					padding:0px;
+					font-size:171%;
+					
+			
+			}
+			a#link2{
+			
+					text-decoration:none;
+					color:black;
+					margin-bottom:2px;
+					padding-bottom:4px;
+					font-size:130%;
+					font-weight:bold;
+					
+			
+			}
+			a#link2:hover{
+					color:#1167A8;
+			
+			}
+			a:hover{
+					color:#1167A8;
+			
+			}
+			
+			#front-line-text{
+					color:#5A5A5A;
+					margin:0px;
+					padding:0px;
+					
+					
+			
+			}
+		
+			#artcle-title{
+					width:220px;
+					font-size:90%;
+					color:#5A5A5A;
+			
+			}
+			#artcle-title1{
+					margin-top:8px;
+					margin-left:13px;
+					width:230px;
+					font-size:82%;
+					color:#5A5A5A;
+					float:left;
+					text-decoration:none;
+			}
+			#clockpic{
+					width:15px;
+					padding-top:7px;
+					margin-bottom:10px;
+				
+					
+					float:left;
+					margin-right:4px;
+					
+			}
+			#clockpic2{
+					width:15px;
+					padding-top:7px;
+					padding-left:14px;
+				
+					
+					float:left;
+					margin-right:4px;
+					
+			}
+			#clockpic3{
+					width:15px;
+					position:relative;
+					top:2px;
+				
+					
+					float:left;
+					
+			
+			
+			}
+			#clocktext{
+			
+					font-size:80%;
+					color:#5A5A5A;
+					margin-top:7px;
+					padding-right:8px;
+					padding-left:5px;
+					margin-bottom:10px;
+					border-right:1px solid #CCCCCC;
+					
+					float:left;
+					
+					
+			}
+			#clocktext2{
+			
+					font-size:80%;
+					color:#5A5A5A;
+					margin-top:7px;
+					padding-right:8px;
+					padding-left:5px;
+					margin-bottom:10px;
+					
+					
+					float:left;
+					
+					
+			}
+			
+			#techtexttext{
+					font-size:80%;
+					padding-left:8px;
+					padding-top:7px;
+					padding-right:45px;
+					margin-bottom:10px;
+					float:left;
+					color:#A61B1B;
+			
+			}
+			#techtexttext2{
+					
+					width:130px;
+					position:relative;
+					top:-5px;
+					font-size:80%;
+					margin-left:15px;
+					padding-left:6px;
+					padding-right:45px;
+					
+					float:left;
+					color:#A61B1B;
+					border-left:1px solid #CCCCCC;
+					
+			}
+			#techtexttext3{
+					float:left;
+					color:#A61B1B;
+					font-size:80%;
+					position:relative;
+					top:2px;
+					left:11px;
+			}
+			#section1-txt{
+				
+				float:left;
+				
+			}
+			#section1{
+				border-bottom:1px solid #CCCCCC;
+				padding-bottom:7px;
+			
+			}
+			
+			#header-explain{
+				width:220px;
+				float:left;
+				margin-top:2px;
+				
+				font-size:90%;
+				
+				
+			}
+			#header-explain2{
+				width:220px;
+				float:left;
+				margin-top:2px;
+				
+				font-size:87%;
+				
+				
+			}
+			#second-line{
+			
+				width:220px;
+			}
+			#header-hr{
+				
+				width:50%;
+			
+			}
+			#headerimg{
+				padding-left:27px;
+				padding-bottom:4px;
+				width:62%
+				
+			}
+			#article{
+				width:650px;
+				float:left;
+				border-right:1px solid #CCCCCC;
+				padding-bottom:14px;
+				padding-right:30px;
+			}
+			#girl-news{
+				width:94%;
+				
+				
+			}
+			#girl-news2{
+				width:94%;
+				padding-bottom:4px;
+				
+			}
+			#random-img{
+				width:85%;
+				padding-top:12px;
+			}
+			.flex-container {
+				display: flex;
+			}
+			#girl-section{
+				margin-top:17px;
+				width:240px;
+				padding-right:7px;
+				border-right:1px solid #CCCCCC;
+			}
+			#house-section{
+				margin-left:18px;
+				margin-top:17px;
+				width:240px;
+				border-right:1px solid #CCCCCC;
+				
+			
+			}
+			#alexa-title{
+				font-weight:bold;
+				font-size:120%;
+				margi-bottom:0px;
+			}
+			
+			#girl-debates{
+				font-size:95%;
+				color:#5F5A5A;
+				padding-top:5px;
+				width:220px;
+				
+			
+			}
+			#second-line-2{
+				width:220px;
+				position:relative;
+				top:-18px;
+			
+			}
+			#others{
+				
+				width:200px;
+			}
+			#Alexa{
+				font-size:120%;
+				font-weight:bold;
+				padding-top:12px;
+				padding-left:14px;
+			
+			
+			}
+			
+			a#Alexa{
+				font-size:70px;
+				font-weight:bold;
+				padding-top:12px;
+				padding-left:14px;
+			
+			}
+			#Netflix{
+				font-size:120%;
+				font-weight:bold;
+				padding-top:12px;
+				padding-left:14px;
+				border-top:1px solid #CCCCCC;
+				margin-top:52px;
+				margin-left:4px;
+			}
+			
+			#Videos{
+				color:#404040;
+				float:left;
+				margin-left:15px;
+				font-size:150%;
+			
+			}
+			#videopic{
+				width:10%;
+				float:left;
+				margin-left:15px;
+			}
+			
+			#title-card{
+				margin-top:0px;
+				padding-top:0px;
+				font-weight:bold;
+				font-size:92%;
+				
+			
+			}
+			#section-container{
+			
+				
+			}
+			#time-stamp{
+				font-size:80%;
+				color:#5A5A5A;
+				float:left;
+				position:relative;
+				top:2px;
+				left:3px;
+				border-right:1px solid #CCCCCC;
+				padding-right:7px;
+			}
+			#video-section{
+				position:relative;
+				top:-1px;
+				padding-top:20px;
+			}
+			#video-section1{
+				position:relative;
+				top:-1px;
+				padding-top:15px;
+			}
+			#video-section2{
+				position:relative;
+				
+				padding-top:1px;
+			}
+			#video-section3{
+				position:relative;
+				top:-1px;
+				padding-top:4px;
+			}
+			#video-section4{
+				position:relative;
+				top:-1px;
+				padding-top:4px;
+			}
+			#share{
+				float:left;
+			
+			}
+			a#share-title{
+			
+				position:relative;
+				top:22px;
+				margin-left:20px;
+				font-size:150%;
+			
+			}
+			#myarrow{
+				margin-top:28px;
+				float:left;
+				width:2%;
+			
+			}
+			#myphone{
+				float:left;
+				padding-left:18px;
+				margin-top:10px;
+				width:2%;
+			}
+			#mytwit{
+				float:left;
+				padding-left:18px;
+				margin-top:20px;
+				width:2%;
+			}
+			
+			#artcle-title2{
+					margin-top:20px;
+					margin-left:13px;
+					width:230px;
+					font-size:82%;
+					color:#5A5A5A;
+					float:left;
+					text-decoration:none;
+			}
+			</style>
+			
+			
+			
+		</head>
+		
+		<body>
+			<div id="topbar">
+				<img id="logo" src="images/bbclogo.jpg">
+				
+				<div id="signin-div" class="topbar-section">
+					<img id = "signinimg" src="images/signin.jpg">
+					
+					<span id="signin-text">Sign in</span>
+					
+				</div>
+				
+				<div class="topbar-section topbar-menu">
+					<p>News</p>
+					
+				</div>
+				<div class="topbar-section topbar-menu">
+					<p>Sports</p>
+					
+				</div>
+				<div class="topbar-section topbar-menu">
+					<p>Weather</p>
+					
+				</div>
+				<div class="topbar-section topbar-menu">
+					<p>Shop</p>
+					
+				</div>
+				<div class="topbar-section topbar-menu">
+					<p>Earth</p>
+					
+				</div>
+				<div class="topbar-section topbar-menu">
+					<p>Travel</p>
+					
+				</div>
+				<div class="topbar-section more-menu">
+					More
+					
+					<img id="more-arrow" src="images/Arrow.jpg">
+					
+				</div>
+				<div class="topbar-section">
+					<input id="search-box" type="text" value="Search">
+					<input type="image" id="glass" src="images/glass.jpg">
+					
+				</div>
+				
+				
+			</div>
+			<div class="clear"></div>
+			<div class="Header-Bar">
+				<div class="Inner-Bar">
+					<h1>NEWS</h1>
+				
+				</div>
+			
+			
+			
+			</div>
+			<div class="clear"></div>
+			<div class="header-2">
+				<div class="head2">
+				<div class="header-section">
+					Home
+				
+				</div>
+				<div class="header-section-follows">
+					Video
+				
+				</div>
+				<div class="header-section-follows">
+					World
+				
+				</div>
+				<div class="header-section-follows">
+					US&Canada
+				
+				</div>
+				<div class="header-section-follows">
+					UK
+				
+				</div>
+				<div class="header-section-follows">
+					Business
+				
+				</div>
+				<div class="header-section-follows">
+					Tech
+				
+				</div>
+				<div class="header-section-follows">
+					Science
+				
+				</div>
+				<div class="header-section-follows">
+					Stories
+				
+				</div>
+				<div class="header-section-follows">
+					Entertainment & Arts
+				
+				</div>
+				<div class="header-section-follows">
+					Health
+				
+				</div>
+				<div class="header-section-follows-more">
+					
+					more
+					<img id="more-arrow1" src="images/Arrow22.jpg">
+				</div>
+				
+			</div>
+			<div id="box">
+					<h2>Technology</h2>
+				<div id="article">
+					
+					<h3><a href="">Google's job hunting service come to UK</a></h3>
+					<div id="section1">
+						<div id="section1-txt">
+							<div id="artcle-title">
+								Google's centralised job hunt services signs up most individual sites with one major exeception.
+							</div>
+							<div id="second-line">
+								<img id="clockpic" src="images/Clock.jpg"> 
+								<div id="clocktext">
+									8 hours ago
+								</div>
+								<div id="techtexttext">
+									Technology
+								</div>
+							</div>
+						
+						
+							<hr align="left" width="20%" color="#A61B1B">
+							<div id="header-explain">
+								Gmail messages 'read by third parties'
+						</div>
+						</div>
+					
+					<img id="headerimg" src="images/Headingpage.jpg">
+					</div>
+					<div class="clear"></div>
+					
+					<div class="flex-container">
+						<div id="girl-section">
+							<img id="girl-news" src="images/Girl.jpg">
+							
+							<a id="link2" href="">Amazon websites<br> crash on Prime Day</a>
+							<div id="section1-txt">
+							<div id="artcle-title">
+								The e-commerce giant is experiencing outages in the US and elsewhere as its summer sale gets underway
+							</div>
+							<div id="second-line">
+								<img id="clockpic" src="images/Clock.jpg"> 
+								<div id="clocktext">
+									16 July 2018
+								</div>
+								<div id="techtexttext">
+									Business
+								</div>
+								
+							</div>
+						
+						
+							<hr align="left" width="20%" color="#A61B1B">
+							<div id="header-explain2">
+								Amazon Prime Day deads 'not what they seem'
+								<br>
+								<br>
+								Amazon promises fix for creepy Alexa laugh
+						</div>
+						</div>
+							
+							
+							
+								
+								
+						</div>
+							
+							
+							
+							
+							
+						
+						<div id="house-section">
+							
+								<img id="girl-news2" src="images/randomimage.jpg">
+								<br>
+							<a id="link2" href="">AI 'will not decrease job numbers in UK'</a>
+							<br>
+							
+							<div id="section1-txt">
+							<div id="artcle-title">
+								But a report warns there will be "winners and losers" with many roles set to change
+							</div>
+							<div id="second-line">
+								<img id="clockpic" src="images/Clock.jpg"> 
+								<div id="clocktext">
+									17 July 2018
+								</div>
+								<div id="techtexttext">
+									Business
+								</div>
+								
+							</div>
+						
+						
+							<hr align="left" width="20%" color="#A61B1B">
+							<div id="header-explain2">
+								AI 'poses less risk to jobs than feared'
+								<br>
+								<br>
+								Northern jobs 'most at risk from robots'
+						</div>
+						</div>
+						</div>
+						<div id="others">
+							
+								<div id="Alexa">
+									<a id="Alexa-title" href="" style="font-size: 19px;">Alexa,are you friends with our kids?</a>
+								</div>
+								<div id="second-line">
+									<img id="clockpic2" src="images/Clock.jpg"> 
+									<div id="clocktext2">
+										16 July 2018
+									</div>
+									<div id="techtexttext2">
+										Technology
+									</div>
+								</div>
+							
+							<div id="Netflix">
+								<a id="Alexa-title" href="" style="font-size: 19px;">Netflix shares plunge as growth rate stalls</a>
+							</div>
+							<div id="second-line">
+								<img id="clockpic2" src="images/Clock.jpg"> 
+								<div id="clocktext2">
+									16 July 2018
+								</div>
+								<div id="techtexttext2">
+									Business
+								</div>
+							</div>
+							<div id="Netflix">
+								<a id="Alexa-title" href="" style="font-size: 19px;">Kodak Bitcoin mining 'scam' evaporates</a>
+							</div>
+							<div id="second-line">
+								<img id="clockpic2" src="images/Clock.jpg"> 
+								<div id="clocktext2">
+									16 July 2018
+								</div>
+								<div id="techtexttext2">
+									Technology
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div id="section-container">
+					
+					<div id="Videos">
+						Watch/Listen
+					</div>
+					<br>
+					<br>
+					<img id="videopic" src="images/pic1.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>The AI bot you can make with a potato</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						9 hours ago
+					</div>
+					<div id="techtexttext3">
+						Technology
+					</div>
+					
+					<br>
+					<div id="video-section">
+					<img id="videopic" src="images/pic2.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>Smart luggage reviewed</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						16 July 2018
+					</div>
+					<div id="techtexttext3">
+						Technology
+					</div>
+					</div>
+					
+					<br>
+					<br>
+					
+					<div id="video-section1">
+					<img id="videopic" src="images/pic3.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>A musical instrument for astronauts</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						13 July 2018
+					</div>
+					<div id="techtexttext3">
+						Technology
+					</div>
+					</div>
+					<br>
+					<br>
+					
+					<div id="video-section2">
+					<img id="videopic" src="images/pic4.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>Could AI replace<br> doctors?</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						12 July 2018
+					</div>
+					<div id="techtexttext3">
+						Technology
+					</div>
+					</div>
+					
+					<br>
+					<br>
+					<div id="video-section3">
+					<img id="videopic" src="images/pic5.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>The self-driving car that's 50 years old</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						13 July 2018
+					</div>
+					<div id="techtexttext3">
+						Business
+					</div>
+					</div>
+					<br>
+					<br>
+					
+					<div id="video-section4">
+					<img id="videopic" src="images/pic6.jpg">
+					<div id=video-explain>
+						<a href="" id=title-card>Facebook fine'reflects magnitude of breach'</a>
+					</div>
+					<img id="clockpic3" src="images/Clock.jpg">
+					<div id="time-stamp" >
+						11 July 2018
+					</div>
+					<div id="techtexttext3">
+						Technology
+					</div>
+					</div>
+					<br>
+					<br>
+					<div id="share">
+						<a href="" id="share-title">Share with BBC News</a>
+					</div>
+					<img id="myarrow" src="images/Arrow222.jpg">
+					<br>
+					<br>
+					<br>
+					<img id="myphone" src="images/Phone.jpg">
+					<div id="artcle-title1">
+					Send us an SMS or MMS to +44 7624 800100
+					</div>
+					<br>
+					<br>
+					<br>
+					<img id="myphone" src="images/email.jpg">
+					<div id="artcle-title1">
+					Email us at <span style="font-weight:bold;color:black;font-size:61%"><a href="">haveyoursay@bbc.co.uk</a></span>
+					</div>
+					
+					<br>
+					<br>
+					<img id="mytwit" src="images/twitter.jpg">
+					<div id="artcle-title2">
+					Follow Have Your Say on<span style="font-weight:bold;color:black;font-size:61%"><a href=""> Twitter</a></span>
+					</div>
+			</div>
+		</body>
+		
+		
+		
+</html>
+		
